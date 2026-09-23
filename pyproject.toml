@@ -1,24 +1,7 @@
 [project]
-name = "pneumonia-classifier"
+name = ""
 version = "0.1.0"
-description = "End-to-end PyTorch CNN for Pneumonia Classification"
-authors = [{ name = "Abhishek Jadhav", email = "abhishekjadhav0015@gmail.com" }]
+description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.10"
-dependencies = [
-    "torch",
-    "torchvision",
-    "streamlit",
-    "pillow",
-    "mlflow",
-    "tqdm",
-    "kagglehub"
-]
-
-[build-system]
-requires = ["setuptools>=61.0"]
-build-backend = "setuptools.build_meta"
-
-[tool.setuptools.packages.find]
-where = ["."]
-include = ["src", "src.*"]
+requires-python = ">=3.14"
+dependencies = []
