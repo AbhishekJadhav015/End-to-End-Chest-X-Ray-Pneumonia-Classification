@@ -6,4 +6,3 @@ pillow
 mlflow
 tqdm
 kagglehub
--e .
